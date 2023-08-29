@@ -1,0 +1,38 @@
+Verbos HTTP:
+
+GET -  Você usa o verbo "GET" quando deseja obter informações de um servidor. Por exemplo, se você quiser ver um site, está fazendo um "GET" para buscar a página.
+
+POST - Você usa o verbo "POST" quando deseja enviar novas informações para o servidor. É como quando você preenche um formulário online e clica no botão "Enviar" - você está enviando dados para serem processados.
+
+PUT - O verbo "PUT" é usado para atualizar completamente uma informação existente no servidor. Você fornece todos os detalhes novamente, como se estivesse trocando um objeto antigo por um novo.
+
+PATCH - "PATCH" é semelhante ao "PUT", mas você está atualizando apenas uma parte das informações. Você envia apenas as alterações que deseja fazer.
+
+DELETE - O verbo "DELETE" é usado para pedir ao servidor que remova as informações especificadas. Por exemplo, se você quiser excluir uma postagem de blog, usaria o "DELETE".
+
+
+Codigo de Status HTTP:
+
+5 classes:
+100 - Solicitaçao iniciada pelo cliente
+200s - solicitação foi bem-sucedida e o servidor está retornando os dados solicitados. É como dizer "tudo certo".
+    200
+    201
+    204
+300s - Redirecionamento:
+    301
+    302
+400s - Erros com a solicitação
+    400 Bad request
+    401 Unauthorized
+    403 Forbidden
+    404 Not Found
+500s - Erros com o servidor
+    500 Internal server error
+    501
+    502
+    503 service Unavailable
+    504
+
+
+
