@@ -16,9 +16,8 @@ Codigo de Status HTTP:
 5 classes:
 100 - Solicitaçao iniciada pelo cliente
 200s - solicitação foi bem-sucedida e o servidor está retornando os dados solicitados. É como dizer "tudo certo".
-    200
-    201
-    204
+    201 - resultado de uma solicitação do tipo POST, diferente do 200 que é um OK, o 201 significa um CREATED
+    204 - solicitação bem sucedida porém a resposta não possui um corpo, ex: uma solicitaçã ode atualização de dados onde os dados iniciais nao foram criados
 300s - Redirecionamento:
     301
     302
